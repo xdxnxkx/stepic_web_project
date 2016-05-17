@@ -7,9 +7,9 @@ class Question(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
     added_at = models.DateTimeField()
-    rating = models.IntegerField()
+    rating = models.IntegerField(default=0)
     author = models.OneToOneField(User)
-    likes = models.ForeignKey(User)
+    likes = models.ForeignKey(User, related_name='likes')
 
 
 class Answer(models.Model):

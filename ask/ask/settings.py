@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_stepic',
         'USER': 'xdxnxkx',
-        'PASSWORD': 'dnk-00003',
+        'PASSWORD': 'Lyr-00003',
         'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
